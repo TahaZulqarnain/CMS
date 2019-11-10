@@ -1,0 +1,42 @@
+[11-Dec-2017 19:32:02 UTC] PHP Warning:  include(../../db.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 3
+[11-Dec-2017 19:32:02 UTC] PHP Warning:  include(): Failed opening '../../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 3
+[11-Dec-2017 19:32:24 UTC] PHP Warning:  include(../../db.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 3
+[11-Dec-2017 19:32:24 UTC] PHP Warning:  include(): Failed opening '../../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 3
+[11-Dec-2017 19:32:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 9
+[11-Dec-2017 19:32:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 10
+[11-Dec-2017 19:32:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tahazulq/public_html/cms.tahazulqarnain.com/cms/accounts/login.php on line 12
+[24-Dec-2017 17:01:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 46
+[24-Dec-2017 17:01:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 46
+[24-Dec-2017 17:01:59 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 46
+[13-Sep-2018 06:46:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tahazulq_taha'@'localhost' to database 'tahazulq_cms_system123' in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 32
+[13-Sep-2018 06:49:44 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 10
+[13-Sep-2018 06:49:46 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 10
+[13-Sep-2018 07:04:11 UTC] PHP Fatal error:  Uncaught Error: Call to private User::__construct() from invalid context in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 22
+[13-Sep-2018 07:04:12 UTC] PHP Fatal error:  Uncaught Error: Call to private User::__construct() from invalid context in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 22
+[13-Sep-2018 07:04:34 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'tahazulq_taha'@'localhost' to database 'tahazulq_cms_system123' in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 13
+[13-Sep-2018 07:05:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'tahazulq_taha'@'localhost' to database 'tahazulq_cms_system1231' in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 13
+[13-Sep-2018 07:06:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tahazulq_taha'@'localhost' to database 'tahazulq_cms_system1231' in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 13
+[13-Sep-2018 07:06:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'tahazulq_taha'@'localhost' to database 'tahazulq_cms_system1231' in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 13
+[13-Sep-2018 07:30:01 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be integer, string given in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 14
+[13-Sep-2018 07:59:01 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be integer, string given in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/user_class.php on line 14
+[23-Oct-2019 11:39:35 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_8b06459383bf397514a70f285d69a3d8, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:39:35 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:41:25 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_4174c8b608e453b416063800c47d0b87, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:41:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:41:40 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_4174c8b608e453b416063800c47d0b87, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:41:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:42:46 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_4174c8b608e453b416063800c47d0b87, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:42:46 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:42:56 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_4174c8b608e453b416063800c47d0b87, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:42:56 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:44:23 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_4174c8b608e453b416063800c47d0b87, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 11:44:23 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 13:33:43 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_3c4f946a8d93882eaa9efeb140213ce0, O_RDWR) failed: Disk quota exceeded (122) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[23-Oct-2019 13:33:43 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php71) in /home/tahazulq/public_html/cms.tahazulqarnain.com/accounts/login.php on line 4
+[28-Oct-2019 12:02:01 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php71/sess_8b06459383bf39

@@ -1,0 +1,119 @@
+[31-Dec-2018 02:53:20 Asia/Karachi] PHP Warning:  require_once(facebook_api_config.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 4
+[31-Dec-2018 02:53:20 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required 'facebook_api_config.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 4
+[30-Dec-2018 23:02:10 UTC] PHP Warning:  require_once(facebook_api_config.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 3
+[30-Dec-2018 23:02:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api_config.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 3
+[30-Dec-2018 23:02:13 UTC] PHP Warning:  require_once(facebook_api_config.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 3
+[30-Dec-2018 23:02:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api_config.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 3
+[30-Dec-2018 23:02:36 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookServerException: fb_exchange_token parameter not specified in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Exceptions/FacebookResponseException.php:111
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Authenticati in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Exceptions/FacebookResponseException.php on line 111
+[30-Dec-2018 23:04:16 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:05:55 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:06:09 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:06:12 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:06:31 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:08:01 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:08:12 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[30-Dec-2018 23:09:46 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v2.6')
+#3 /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php(30): Facebook\Facebook->get('/me?fields=name...')
+#4 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/facebook_api/src/Facebook/FacebookRequest.php on line 209
+[31-Dec-2018 00:39:57 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:39:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:40:01 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:40:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:40:37 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:40:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:49:28 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:49:28 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:49:35 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:49:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:49:36 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:49:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:01 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:02 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:03 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:04 UTC] PHP Warning:  require_once(facebook_api/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:50:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'facebook_api/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 55
+[31-Dec-2018 00:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 57
+[31-Dec-2018 00:55:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 57
+[31-Dec-2018 00:57:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 57
+[31-Dec-2018 01:10:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 57
+[31-Dec-2018 01:10:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 57
+[13-Jan-2019 20:19:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 216
+[13-Jan-2019 20:19:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tahazulq/public_html/cms.tahazulqarnain.com/subscriber/profile.php on line 216
